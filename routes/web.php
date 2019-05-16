@@ -26,3 +26,10 @@ Route::get('regindex', 'Login\RegController@regindex');  //注册展示
 Route::post('reg', 'Login\RegController@reg');  //用户注册
 
 Route::get('qian', 'Dome\SslController@qian');
+
+
+//APP
+Route::post('register', 'Login\RegController@register');  //APP注册
+Route::post('log', 'Login\LogController@log');  //APP登录
+
+

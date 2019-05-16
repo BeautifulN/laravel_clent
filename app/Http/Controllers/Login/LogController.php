@@ -24,7 +24,7 @@ class LogController extends Controller
         openssl_private_encrypt($post_json,$enc_data,$k);
         $arr = base64_encode($enc_data);
 //         print_r($arr);die;
-        $url='http://lumen_1809a.com/passlog';  //重定向地址
+        $url='http://lmj.998cv.com/passlog';  //重定向地址
 
         //创建一个新curl资源 初始化
         $ch = curl_init();

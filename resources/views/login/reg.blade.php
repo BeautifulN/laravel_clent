@@ -18,7 +18,7 @@
         名称：<input type="text" id="nickname" name="nickname">
     </p>
     <P>
-        邮箱：<input type="email" id="$email" name="email">
+        邮箱：<input type="email" id="email" name="email">
     </P>
     <p>
         密码：<input type="password" name="password">

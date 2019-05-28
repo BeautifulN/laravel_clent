@@ -97,7 +97,7 @@ class RegController extends Controller
         openssl_private_encrypt($post_json,$enc_data,$k);
         $arr = base64_encode($enc_data);
 //         print_r($arr);die;
-        $url='http://lmj.998cv.com/passreg';  //重定向地址
+        $url='http://lumen_1809a.com/passreg';  //重定向地址
 
         //创建一个新curl资源 初始化
         $ch = curl_init();
@@ -129,7 +129,5 @@ class RegController extends Controller
         }
         //关闭curl资源，并释放系统内存
         curl_close($ch);
-
     }
-
 }

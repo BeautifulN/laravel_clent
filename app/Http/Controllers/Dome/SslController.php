@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 
 class SslController extends Controller
 {
-    public function lists(){
+    public function lists(){   //展示
         return view('ssl.lists');
     }
 

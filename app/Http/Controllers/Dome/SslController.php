@@ -62,7 +62,7 @@ class SslController extends Controller
     }
 
     //非对称加密
-    public function keys(Request $request){
+    public function keys(Request $request){    
         $pass= $request->input('password');
 
         //加密

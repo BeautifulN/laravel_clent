@@ -7,7 +7,7 @@ use App\Http\Controllers\Controller;
 
 class CurlController extends Controller
 {
-    public function mycurl($url,$method,$type)
+    public function mycurl($url,$method,$type)   //设置
     {
         $ch = curl_init($url);
 
